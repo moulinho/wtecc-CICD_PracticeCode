@@ -1,0 +1,11 @@
+name: CI workflow
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches : [ "main" ]
+
+job:
+  build:
+    runs-on:
+    container: python:3.9-slim
