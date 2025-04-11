@@ -1,18 +1,4 @@
 name: CI workflow
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches : [ "main" ]
-
-jobs:
-  build:
-    runs-on: macos-14
-    container: python:3.9-slim
-
-
-
-name: CI workflow
 
 on:
   push:
